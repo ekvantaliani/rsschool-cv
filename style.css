@@ -129,5 +129,8 @@ body {
      margin: 5px;
      color: white;
      
-    }
-   
+ }
+ .footer-logo {
+     display: flex;
+     height: 80px;
+ }
