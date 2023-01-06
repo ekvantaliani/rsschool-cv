@@ -388,6 +388,7 @@ section, main, footer, header, article {
   display: flex;
   justify-content: space-between;
   font-family: "Inika";
+  align-items: center;
 }
 
 .navigation {
@@ -504,16 +505,19 @@ h2 {
   display: flex;
   align-items: stretch;
   text-align: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .service__block {
-  width: 33%;
+  width: 27%;
   border-color: #E3E1D5;
   border-style: solid;
   border-width: 1px;
   border-radius: 20px;
-  margin: 0 116px 0 0;
   padding-bottom: 31px;
+  margin-bottom: 55px;
 }
 
 .service__filter {
@@ -561,8 +565,22 @@ h4 {
   flex-direction: column;
 }
 
-prices__contact-us {
+.prices__contact-us {
   flex-direction: column;
+}
+
+.layout-4-column {
+  display: flex;
+  padding-top: 53px;
+}
+
+.contactos__image {
+  width: 33%;
+}
+
+.contactos__text {
+  width: 33%;
+  text-align: center;
 }
 
 .header, .welcome, .service, .contacts {
