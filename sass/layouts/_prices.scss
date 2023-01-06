@@ -1,0 +1,13 @@
+.layout-2-column {
+    display: flex;
+}
+
+.prices__plans {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+prices__contact-us {
+    flex-direction: column;
+}

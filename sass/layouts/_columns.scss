@@ -1,0 +1,51 @@
+.layout-3-column {
+    display: flex;
+    align-items: stretch ;
+    text-align: center;
+}
+
+.service__block {
+    width: 33%;
+    border-color: #E3E1D5;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    margin: 0 116px 0 0;
+    padding-bottom: 31px;
+
+}
+
+.service__filter {
+    display: flex;
+}
+
+.service__image {
+    border-radius: 20px;
+}
+
+.service__headline {
+    width: 33%;
+}
+
+h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+    color: #E06733;
+}
+
+.service__img {
+    border-radius: 20px 20px 0 0 ;
+}
+
+.service__description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+}

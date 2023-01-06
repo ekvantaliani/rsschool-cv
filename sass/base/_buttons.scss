@@ -1,0 +1,18 @@
+.button_uncolored {
+    padding: 14px 27px 14px 27px;
+    border: 2px solid $color-primary;
+    border-radius: 10px;
+    font-family: 'Inter';
+    background: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    transition: all .3s;
+}
+
+.button_uncolored:hover {
+    border: 2px solid $color-primary;
+    background: $color-primary;
+    color: $color-light;
+}
