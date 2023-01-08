@@ -1,0 +1,44 @@
+.wrapper__about {
+    display: flex;
+    padding: 62px 0;
+    max-width: $content-width;
+    margin: auto;
+    padding: 93px 0 94px 0 ;
+}
+
+.about__image {
+    display: flex;
+    width: 50%;
+    align-items: center;
+  justify-content: center;
+}
+
+.about__content {
+    width: 50%;
+    align-items: center;
+  justify-content: center;
+  padding: 68px 0 0 0;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+
+}
+
+.about__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    color: #636060;
+}
+
+.colortext_about {
+    color: $color-primary;
+}

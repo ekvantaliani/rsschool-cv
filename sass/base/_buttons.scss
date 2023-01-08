@@ -1,0 +1,41 @@
+.button_uncolored {
+    padding: 14px 27px 14px 27px;
+    border: 2px solid $color-primary;
+    border-radius: 10px;
+    font-family: 'Inter';
+    background: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    transition: all .3s;
+}
+
+.button_uncolored:hover {
+    border: 2px solid $color-primary;
+    background: $color-primary;
+    color: $color-light;
+}
+
+.prices__button {
+    border: 2px solid $color-primary;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #E06733;
+    padding: 12px 27px 12px 33px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.service__button {
+    border: 1px solid $color-primary;
+    font-family: 'Inika';
+    padding: 12px 40px 12px 40px;
+    background-color: $color-background;
+    color: #E06733;
+    border-radius: 5px;
+}

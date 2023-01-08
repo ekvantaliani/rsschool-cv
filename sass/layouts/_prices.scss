@@ -1,0 +1,54 @@
+.layout-2-column {
+    display: flex;
+    padding-bottom: 115px;
+}
+
+.prices__plans {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.prices__contact-us {
+    display: flex;
+    flex-direction: column;
+margin-left: auto;
+text-align: right;
+}
+
+.price__plan {
+    border-color: #E3E1D5;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    padding-right: 41px;
+    padding-left: 41px;
+    max-width: 332px;
+
+}
+
+.price__name {
+    display: flex;
+    width: 250px;
+    height: 50px;
+    background-color: $color-background;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.prices__button {
+    margin: 0 0 0 auto;
+}
+
+.prices_img {
+    width: 152px;
+    margin: 0 0 0 auto;
+}
