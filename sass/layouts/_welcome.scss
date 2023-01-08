@@ -1,0 +1,39 @@
+.welcome__wrapper {
+    display: flex;
+    padding: 62px 0;
+}
+
+.leaf-large {
+    width: 50%;
+}
+
+.welcome__content{
+    width: 50%;
+}
+
+.colortext {
+    color: $color-secondary;
+}
+
+h1 {
+    color: $color-textblock;
+}
+
+.welcome__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+/* or 175% */
+    color: #636060;
+}
+
+.welcome__content {
+    h1 {
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+    }
+}
