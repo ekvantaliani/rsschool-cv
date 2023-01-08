@@ -429,7 +429,11 @@ section, main, footer, header, article {
   cursor: pointer;
 }
 
-.navigation__link:hover {
+.navigation__link a:hover {
+  color: #E06733;
+}
+
+.navigation__link a:visited {
   color: #E06733;
 }
 

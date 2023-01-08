@@ -24,8 +24,13 @@
     cursor: pointer;
 }
 
-.navigation__link:hover {
+.navigation__link a:hover {
     color: $color-primary;
+}
+
+.navigation__link a:visited {
+    color: $color-primary;
+
 }
 
 a:link {
