@@ -3,7 +3,6 @@
 <!-- Оболочка документа, указываем язык содержимого -->
 <html lang="en">
 <!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
-	<head>
 <!-- Заголовок страницы в браузере -->
 		<title>PLANTS</title>
 <!-- Подключаем CSS -->
@@ -14,6 +13,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
         <script src="https://kit.fontawesome.com/b8d415bc61.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 <!-- Кодировка страницы -->
 		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 	</head>
@@ -68,14 +68,12 @@
                     <div class="service__filter">
                         <h2 class="service__headline">Service and our<br> projects</h2>
                         <div class="service__buttons">
-                            <button class="service button__">Gardens</button>
-                         </div>
-                         <div class="service__buttons">
-                            <button class="service button__">Gardens</button>
-                         </div>
-                         <div class="service__buttons">
-                            <button class="service button__">Gardens</button>
-                         </div>
+                            <button class="service__button">Gardens</button>
+                    
+                            <button class="service__button">Lawn</button>
+
+                            <button class="service__button">Planting</button>
+                        </div>
                     </div>     
                     <div class="layout-3-column">
                         <div class="service__block">
@@ -87,37 +85,37 @@
                         </div>
                         <div class="service__block">
                             <div class="service__image">
-                                <img class="service__img" src="./img/first.jpg" alt="garden care">
+                                <img class="service__img" src="./img/first2.jpg" alt="garden care">
+                            </div>
+                            <h4>Planting</h4>
+                            <p class="service__description">Lorem Ipsum has been the industry</p>
+                        </div>
+                        <div class="service__block">
+                            <div class="service__image">
+                                <img class="service__img" src="./img/first3.jpg" alt="garden care">
+                            </div>
+                            <h4>Lawn care</h4>
+                            <p class="service__description">Lorem Ipsum has been the industry</p>
+                        </div>
+                        <div class="service__block">
+                            <div class="service__image">
+                                <img class="service__img" src="./img/first4.jpg" alt="garden care">
+                            </div>
+                            <h4>Planting</h4>
+                            <p class="service__description">Lorem Ipsum has been the industry</p>
+                        </div>
+                        <div class="service__block">
+                            <div class="service__image">
+                                <img class="service__img" src="./img/first5.jpg" alt="garden care">
                             </div>
                             <h4>Garden care</h4>
                             <p class="service__description">Lorem Ipsum has been the industry</p>
                         </div>
                         <div class="service__block">
                             <div class="service__image">
-                                <img class="service__img" src="./img/first.jpg" alt="garden care">
+                                <img class="service__img" src="./img/first6.jpg" alt="garden care">
                             </div>
-                            <h4>Garden care</h4>
-                            <p class="service__description">Lorem Ipsum has been the industry</p>
-                        </div>
-                        <div class="service__block">
-                            <div class="service__image">
-                                <img class="service__img" src="./img/first.jpg" alt="garden care">
-                            </div>
-                            <h4>Garden care</h4>
-                            <p class="service__description">Lorem Ipsum has been the industry</p>
-                        </div>
-                        <div class="service__block">
-                            <div class="service__image">
-                                <img class="service__img" src="./img/first.jpg" alt="garden care">
-                            </div>
-                            <h4>Garden care</h4>
-                            <p class="service__description">Lorem Ipsum has been the industry</p>
-                        </div>
-                        <div class="service__block">
-                            <div class="service__image">
-                                <img class="service__img" src="./img/first.jpg" alt="garden care">
-                            </div>
-                            <h4>Garden care</h4>
+                            <h4>Planting</h4>
                             <p class="service__description">Lorem Ipsum has been the industry</p>
                         </div>
                         
@@ -131,20 +129,26 @@
                             <h3>Prices</h3>
                             <div class="price__plan">
                                 <div class="price__name">Basics
-                                    <span class="ico ico__name"></span>
+                                    <span class="ico ico__name"><object type="image/svg+xml" data="./img/accordion_btn.svg" class="logo-object">
+                                        Your browser does not support SVG
+                                    </object></span>
                                 </div>
                                 <div class="price__name">Basics
-                                    <span class="ico ico__name"></span>
+                                    <span class="ico ico__name"><object type="image/svg+xml" data="./img/accordion_btn.svg" class="logo-object">
+                                        Your browser does not support SVG
+                                    </object></span>
                                 </div>
                                 <div class="price__name">Basics
-                                    <span class="ico ico__name"></span>
+                                    <span class="ico ico__name"><object type="image/svg+xml" data="./img/accordion_btn.svg" class="logo-object">
+                                        Your browser does not support SVG
+                                    </object></span>
                                 </div>
                             </div>
                         </div>
                         <div class="prices__contact-us">
-                            <h3>Our best gardeners are ready to help you</h3>
+                            <h3>Our best <span class="colortext">gardeners </span>are<br>ready to help you</h3>
                             <button class="prices__button">Contact us</button>
-                            <img src="./img/leafs.png" alt="leafs">
+                            <img class="prices_img" src="./img/leafs.png" alt="leafs">
                         </div>
                     </div>
                 </div>
@@ -156,11 +160,11 @@
                             <img src="./img/contact_woman 1.png" alt="contact_women">
                         </div>
                         <div class="contactos__text">
-                            <p>Contact us</p>
+                            <h2>Contact us</h2>
                         </div>
-                        <div class="contacts__form">   
-                            <form action method="POST">
-                            <input type="text" name="city" placeholder="City">
+                        <div class="contacts__form">City<span class="ico ico__name"><object type="image/svg+xml" data="./img/accordion_btnC.svg" class="logo-object">
+                                Your browser does not support SVG
+                            </object></span>
                             </form>
                         </div> 
                     </div>
@@ -168,17 +172,19 @@
             </section>   
         </main> 
         <footer class = "footer">
-            <div class="wrapper">
+            <div class="wrapper-footer">
                 <div class="layout-3-column">
                     <div class="footer__copyright">
                        <p> © 2022 github</p>
                     </div>
                     <div class="fotter__rschool">
-
+                        <p>Rolling Scopes School</p>
                     </div>
                     <div class="footer__social">
-                        <a href="#"><i class="far fa-square" style="color: #390A0A"></i></a>
-
+                        <a href="#"><img class="footer__img" src="./img/inst 1.svg" alt="instagramm"></a>
+                        <a href="#"><img class="footer__img" src="./img/fb 1.svg" alt="instagramm"></a>
+                        <a href="#"><img class="footer__img" src="./img/tw 1.svg" alt="instagramm"></a>
+                        <a href="#"><img class="footer__img" src="./img/pinterest 1.svg" alt="instagramm"></a>
                     </div> 
                 </div>
             </div>    

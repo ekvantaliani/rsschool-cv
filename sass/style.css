@@ -58,6 +58,29 @@ h4 {
   color: #ffffff;
 }
 
+.prices__button {
+  border: 2px solid #E06733;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #E06733;
+  padding: 12px 27px 12px 33px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.service__button {
+  border: 1px solid #E06733;
+  font-family: "Inika";
+  padding: 12px 40px 12px 40px;
+  background-color: #EDF2EC;
+  color: #E06733;
+  border-radius: 5px;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -397,6 +420,7 @@ section, main, footer, header, article {
   font-weight: 700;
   font-size: 1.6rem;
   line-height: 50px;
+  margin: 0px;
 }
 
 .navigation__link {
@@ -557,6 +581,7 @@ h4 {
 
 .layout-2-column {
   display: flex;
+  padding-bottom: 115px;
 }
 
 .prices__plans {
@@ -566,7 +591,46 @@ h4 {
 }
 
 .prices__contact-us {
+  display: flex;
   flex-direction: column;
+  margin-left: auto;
+  text-align: right;
+}
+
+.price__plan {
+  border-color: #E3E1D5;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  padding-right: 41px;
+  padding-left: 41px;
+  max-width: 332px;
+}
+
+.price__name {
+  display: flex;
+  width: 250px;
+  height: 50px;
+  background-color: #EDF2EC;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border-radius: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.prices__button {
+  margin: 0 0 0 auto;
+}
+
+.prices_img {
+  width: 152px;
+  margin: 0 0 0 auto;
 }
 
 .layout-4-column {
@@ -581,6 +645,60 @@ h4 {
 .contactos__text {
   width: 33%;
   text-align: center;
+}
+
+.contacts__form {
+  display: flex;
+  width: 450px;
+  height: 50px;
+  background-color: #EDF2EC;
+  margin-top: 95px;
+  margin-bottom: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.05em;
+  color: #717171;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #D6E7D2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.service__filter {
+  width: 100%;
+}
+
+.service__buttons {
+  width: 50%;
+  padding-left: 40px;
+}
+
+.service__button {
+  margin-right: 38px;
+  margin-top: 69px;
+}
+
+.wrapper-footer {
+  max-width: 1222px;
+  margin: auto;
+  padding-top: 49px;
+  padding-bottom: 49px;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.footer__img {
+  padding-right: 20px;
 }
 
 .header, .welcome, .service, .contacts {
